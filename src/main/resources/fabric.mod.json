@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "allah-sunshine",
+  "version": "${version}",
+  "name": "Allah Sunshine",
+  "description": "A fun punishment/sunshine command mod for MC 26.1.2",
+  "authors": [
+    "tumo07"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/allah-sunshine/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "com.allah.AllahSunshineMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~26.1.2",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
